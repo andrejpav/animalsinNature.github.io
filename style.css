@@ -1,0 +1,38 @@
+
+body{
+	background-color: gray;
+	margin-left: 2px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+img{
+	width: 500px;
+	height: 450px;
+	margin: 25px;
+	transition: all 1s;
+	
+}
+
+
+img:hover{
+   opacity: 0.8;
+   transform: scale(1.1);
+}
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width:8em;
+	text-shadow: 0px 3px 1px black;
+	box-shadow: 3px 2px 0px black;
+
+}
